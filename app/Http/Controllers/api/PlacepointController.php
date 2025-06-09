@@ -4,7 +4,7 @@ namespace App\Http\Controllers\api;
 
 use App\Http\Controllers\Controller;
 use App\Models\Placepoint;
-use App\Game;
+use App\Models\Game;
 use App\Models\Wallet;
 use App\Models\User;
 // use Illuminate\Http\Request;

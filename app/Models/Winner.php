@@ -19,7 +19,7 @@ class Winner extends Model
 
     public function game()
     {
-        return $this->belongsTo('App\Game');
+        return $this->belongsTo('App\Models\Game');
     }
     public function timeslot()
     {

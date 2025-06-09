@@ -4,7 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Win;
-use App\Game;
+use App\Models\Game;
 use App\Models\Timeslot;
 use Illuminate\Http\Request;
 

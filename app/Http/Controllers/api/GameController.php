@@ -4,7 +4,7 @@ namespace App\Http\Controllers\api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Game;
+use App\Models\Game;
 use App\Models\Setting;
 use App\Models\Timeslot;
 use App\Models\Wallet;
