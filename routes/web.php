@@ -84,7 +84,7 @@ Route::group(['namespace' => 'App\Http\Controllers', 'prefix' => 'admin'], funct
 
         // Win
         Route::resource('winner', 'WinController');
-        Route::get('win_history/', 'WinController@winHistory');
+        Route::get('win_history/', 'GameController@winHistory');
         Route::get('point_history/', 'WinController@pointHistory');
 
 
