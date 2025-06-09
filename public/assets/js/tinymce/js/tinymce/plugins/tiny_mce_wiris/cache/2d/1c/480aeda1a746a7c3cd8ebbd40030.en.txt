@@ -1,0 +1,1 @@
+{"result":{"text":"open parentheses 2 1 third close parentheses divided by x equals 4"},"status":"ok"}
