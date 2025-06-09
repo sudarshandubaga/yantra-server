@@ -91,7 +91,6 @@
                                     </form>
 
                                     @if (!empty(request('date')) && !empty(request('type')))
-
                                         <form method="POST" action="{{ route('winner.store') }}" class="user">
                                             @csrf
                                             <input type="hidden" name="date" value="{{ request('date') }}">
@@ -102,8 +101,6 @@
                                                 <input type="submit" class="btn btn-primary" value="Save Change " />
                                             </div>
                                         </form>
-                                    @endif
-
                                     @endif
                                 </div>
                             </div>
